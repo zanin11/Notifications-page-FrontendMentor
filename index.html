@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">  
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div id="principal">
+    <div id="topo">
+      <h1>Notifications</h1>
+      <h3 id="numero-notificacoes">3</h3>
+      <button id="todas-lidas"><a href="#">Mark all as read</a></button>
+    </div>
+    <div id="publicacao-1">
+      <img src="assets/images/avatar-mark-webber.webp" alt="Mark Webber">
+      <div id="texto-1">
+        <div id="titulo_bola">
+          <p><strong><a href="#">Mark Webber </a></strong>reacted to your recent post <strong><a href="#" id="muda">My first tournament today!</a></strong></p>
+          <div id="bola-vermelha1"></div>
+        </div>
+        <p id="tempo-1">1m ago</p>
+      </div>
+    </div>
+    <div id="publicacao-2">
+      <img src="assets/images/avatar-angela-gray.webp" alt="Angela Gray">
+      <div id="texto-2">
+        <div id="titulo_bola">
+          <p><strong><a href="#">Angela Gray </a></strong>followed you</p>
+          <div id="bola-vermelha2"></div>
+        </div>
+        <p id="tempo-2">5m ago</p>
+      </div>
+    </div>
+    <div id="publicacao-3">
+      <img src="assets/images/avatar-jacob-thompson.webp" alt="Jacob Thompson">
+      <div id="texto-3">
+        <div id="titulo_bola">
+          <p><strong><a href="#">Jacob Thompson </a></strong>has joined your group <strong><a href="#" id="chess">Chess Club</a></strong></p>
+          <div id="bola-vermelha3"></div>
+        </div>
+        <p id="tempo-3">1 day ago</p>
+      </div>
+    </div>
+    <div id="publicacao-4">
+      <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="Rizky Hasanuddin">
+      <div id="texto-4">
+        <p><strong><a href="#">Rizky Hasanuddin </a></strong>sent you a private message</p>
+        <p id="tempo-4">5 days ago</p>
+        <div id="msg">
+          <p><a href="#">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+          I'm already having lots of fun and improving my game.</a></p>
+        </div>
+      </div>
+    </div>
+    <div id="publicacao-5">
+      <img src="assets/images/avatar-kimberly-smith.webp" alt="Kimberly Smith">
+      <div id="texto-5">
+        <div id="comenta-foto">
+          <div id="ajuste">
+            <p><strong><a href="#">Kimberly Smith </a></strong>commented on your picture</p>
+            <p id="tempo-5">1 week ago</p>
+          </div>
+          <a href="#"><img id="xadrez" src="assets/images/image-chess.webp" alt="image-chess"></a>
+        </div>
+      </div>
+    </div>
+    <div id="publicacao-6">
+      <img src="assets/images/avatar-nathan-peterson.webp" alt="Nathan Peterson">
+      <div id="texto-6">
+        <p><strong><a href="#">Nathan Peterson </a></strong>reacted to your recent post <strong><a href="#" id="muda">5 end-game strategies to increase your win rate</a></strong></p>
+        <p id="tempo-6">2 weeks ago</p>
+      </div>
+    </div>
+    <div id="publicacao-7">
+      <img src="assets/images/avatar-anna-kim.webp" alt="Anna Kim">
+      <div id="texto-7"> 
+        <p><strong><a href="#">Kim </a></strong>left the group <strong><a href="#" id="chess">Chess Club</a></strong></p>
+        <p id="tempo-7">2 weeks ago</p>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.Coded by <a href="#">Guilherme Zanin </p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

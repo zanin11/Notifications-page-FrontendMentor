@@ -1,0 +1,142 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(210, 60%, 97%);
+}
+a{ 
+    text-decoration: none;
+    color: #000;
+}
+#principal{
+    align-self: center;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid #FFF;
+    width: 680px;
+    height: 670px;
+    background-color: #FFF;
+    margin-top: 20px;
+}
+#topo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+}
+#numero-notificacoes{
+    display: flex;
+    justify-content: center;
+    margin-top: 26.6px;
+    margin-left: 10px;
+    color: white;
+    width: 25px;
+    height: 20px;
+    border-radius: 4px 4px 4px 4px;
+    background-color: hsl(219, 85%, 26%)
+}
+#todas-lidas{
+    margin-top: 20px;
+    margin-left: 319px;
+    background-color: hsl(210, 60%, 98%);
+    border: 0px;
+}
+#todas-lidas:hover{
+    color: hsl(219, 85%, 26%);
+}
+#publicacao-1,#publicacao-2,#publicacao-3,#publicacao-4,#publicacao-5,#publicacao-6,#publicacao-7{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    width: 630px;
+    margin-left: 30px;
+}
+#publicacao-1,#publicacao-2,#publicacao-3{
+    background-color:  hsl(211, 68%, 94%);
+    border-radius: 10px 10px 10px 10px;
+}
+#msg{
+    border: 1px solid hsla(0, 0%, 81%, 0.909);
+    border-radius: 4px 4px 4px 4px;
+    width: 480px;
+    padding: 6px;
+}
+img{
+    width: 55px;
+    height: 55px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+#tempo-1,#tempo-2,#tempo-3,#tempo-4,#tempo-5,#tempo-6,#tempo-7{
+    color:hsl(219, 14%, 63%);
+    margin-top: 0px;
+}
+#muda{
+    color:hsl(219, 12%, 42%);
+}
+#chess{
+    color: hsl(219, 51%, 37%);
+}
+p{
+    padding: 0px;
+    margin: 5px;
+}
+#texto-1,#texto-2,#texto-3,#texto-4,#texto-5,#texto-6,#texto-7{
+    margin-left: 20px;
+}
+#publicacao-1,#publicacao-2,#publicacao-3{
+    height: 60px;
+
+}
+#bola-vermelha1, #bola-vermelha2,#bola-vermelha3{
+    width: 7px;
+    height: 7px;
+    background-color: red;
+    border-radius: 49.5%;
+    margin-top: 12px;
+    margin-left: 4px;
+}
+#titulo_bola, #comenta-foto{
+    display: flex;
+    flex-direction: row;
+}
+#xadrez{
+    margin-left: 185px;
+}
+#ajuste{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    flex-direction: column;
+}
+#msg:hover{
+    background-color: hsl(210, 60%, 97%);
+}
+@media only screen and (max-device-width: 600px) {
+    #principal{
+        width: 570px;
+        height: 690px;
+        align-self: flex-start;
+    }
+    #img{
+        width: 10px;
+        height: 10px;
+    }
+    #publicacao-1,#publicacao-2,#publicacao-3,#publicacao-4,#publicacao-5,#publicacao-6,#publicacao-7{
+        margin-bottom: 10px;
+        width: 470px;
+        margin-left: 30px;
+    }
+    #msg{
+        width: 375px;
+    }
+    #todas-lidas{
+        margin-left: 35px;
+    }
+   
+    #bola-vermelha1{
+        width: 10px;
+        padding: 1px;
+        margin-top: 30px;
+        margin-right: 70px;
+    }
+   
+}
